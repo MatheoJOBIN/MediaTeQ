@@ -1,69 +1,81 @@
 <?php
 
-class Document 
+class Document
 {
     private $id;
     private $titre;
     private $synopsis;
     private $empruntable;
-    private $lesGenres;
-    private $lesPublics;
-    
-    public function __construct($id, $titre, $synopsis, $empruntable, $lesGenres, $lesPublics) {
+    private $unGenre;
+    private $unPublic;
+
+    public function __construct($id, $titre, $synopsis, $empruntable, $unGenre, $unPublic)
+    {
         $this->id = $id;
         $this->titre = $titre;
         $this->synopsis = $synopsis;
         $this->empruntable = $empruntable;
-        $this-> $lesGenres = $lesGenres;
-        $this-> $lesPublics = $lesPublics;
+        $this->unGenre = $unGenre;
+        $this->unPublic = $unPublic;
     }
-    
-    public function getId() {
+
+    public function getId()
+    {
         return $this->id;
     }
 
-    public function getTitre() {
+    public function getTitre()
+    {
         return $this->titre;
     }
 
-    public function getSynopsis(){
+    public function getSynopsis()
+    {
         return $this->synopsis;
     }
 
-    public function getEmpruntable(){
+    public function getEmpruntable()
+    {
         return $this->empruntable;
     }
 
-    public function getLesGenres(){
-        return $this->lesGenres;
+    public function getGenres()
+    {
+        return $this->unGenre;
     }
 
-    public function getLesPublics(){
-        return $this->lesPublics;
+    public function getPublics()
+    {
+        return $this->unPublic;
     }
 
-    public function setId($id): void {
+    public function setId($id)
+    {
         $this->id = $id;
     }
 
-    public function setTitre($titre): void {
+    public function setTitre($titre)
+    {
         $this->titre = $titre;
     }
 
-    public function setSynopsis($synopsis): void {
+    public function setSynopsis($synopsis)
+    {
         $this->synopsis = $synopsis;
     }
 
-    public function setEmpruntable($empruntable): void {
+    public function setEmpruntable($empruntable)
+    {
         $this->empruntable = $empruntable;
     }
 
-    public function setLesGenres($clef, $value){
-        $lesGenres[$clef] = $value;
+    public function setGenre($unGenre)
+    {
+        $this->unGenre = $unGenre;
     }
 
-    public function setLesPublics($clef, $value){
-        $lesPublics[$clef] = $value;
+    public function setPublics($unPublic)
+    {
+        $this->unPublic = $unPublic;
     }
 }
-?>

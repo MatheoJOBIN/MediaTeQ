@@ -2,7 +2,7 @@
 if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
     $racine = "..";
 }
-include_once "$racine/modele/bd.liaison.inc.php";
+include_once "$racine/modele/LivreManager.php";
 
 
 $titre = "Liste des bateaux";

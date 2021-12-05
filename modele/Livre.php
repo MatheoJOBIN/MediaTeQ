@@ -5,8 +5,8 @@ class Livre extends Document
     private $isbn;
     private $auteur;
     
-    public function __construct($id, $titre, $synopsis, $empruntable, $lesGenres, $lesPublics, $isbn, $auteur) {
-        parent::__construct($id, $titre, $synopsis, $empruntable, $lesGenres, $lesPublics);
+    public function __construct($id, $titre, $synopsis, $empruntable, $unGenre, $unPublic, $isbn, $auteur) {
+        parent::__construct($id, $titre, $synopsis, $empruntable, $unGenre, $unPublic);
         $this->isbn = $isbn;
         $this->auteur = $auteur;
     }
