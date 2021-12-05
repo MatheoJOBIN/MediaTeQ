@@ -1,5 +1,5 @@
 ﻿<label for="search_document">
-	Rechercher un document dans la liste
+	Rechercher un document dans la liste : 
 </label>
 <input onkeyup="docsearch()" class="search_document" type="search" id="search_document">
 <hr>
