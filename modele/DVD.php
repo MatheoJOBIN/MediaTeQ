@@ -1,10 +1,12 @@
 <?php
 
+require_once("modele/Document.php");
+
 class DVD extends Document
 {
     private $realisateur;
     
-    public function __construct($id, $titre, $synopsis, $empruntable, $unGenre, $unPublic, $realisateur) {
+    public function __construct($id, $titre, $synopsis, $empruntable, $realisateur, $unGenre, $unPublic) {
         parent::__construct($id, $titre, $synopsis, $empruntable, $unGenre, $unPublic);
         $this->realisateur = $realisateur;
     }
