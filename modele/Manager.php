@@ -9,7 +9,7 @@ class Manager
     {
         $login = "root";
         $mdp = "";
-        $bd = "cbp";
+        $bd = "apweb";
         $serveur = "localhost";
 
         try
