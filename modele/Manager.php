@@ -8,8 +8,8 @@ class Manager
     protected function dbConnect()
     {
         $login = "root";
-        $mdp = "";
-        $bd = "apweb";
+        $mdp = "root";
+        $bd = "mediateq";
         $serveur = "localhost";
 
         try
