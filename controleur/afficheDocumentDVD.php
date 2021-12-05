@@ -16,5 +16,5 @@ include "$racine/vue/header.php";
 include "$racine/vue/vueAfficheDocument.php";
 include "$racine/vue/footer.php";
 ?>
-<script src="js/docsearch.js"></script>
+<script src="js/docsearchDVD.js"></script>
 
