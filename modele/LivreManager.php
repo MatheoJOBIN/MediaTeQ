@@ -30,6 +30,5 @@ class LivreManager extends Manager
         }
         return $lesLivres;
     }
-
 }
 ?>
