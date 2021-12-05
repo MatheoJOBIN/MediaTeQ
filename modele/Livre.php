@@ -1,5 +1,7 @@
 <?php
 
+require_once("modele/Document.php");
+
 class Livre extends Document
 {
     private $isbn;
