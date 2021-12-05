@@ -13,7 +13,7 @@ $listeDVD = $DVDManager->getList(); //Récupération des DVD
 
 // appel du script de vue qui permet de gerer l'affichage des donnees
 include "$racine/vue/header.php";
-include "$racine/vue/vueAfficheDocument.php";
+include "$racine/vue/vueAfficheDocumentDVD.php";
 include "$racine/vue/footer.php";
 ?>
 <script src="js/docsearchDVD.js"></script>
