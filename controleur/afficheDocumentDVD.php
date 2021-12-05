@@ -2,14 +2,10 @@
 if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
     $racine = "..";
 }
-include_once "$racine/modele/LivreManager.php";
 include_once "$racine/modele/DVDManager.php";
 
 
-$titre = "Liste des documents";
-
-$livreManager = new LivreManager(); //instanciation d'un livreManager
-$listeLivre = $livreManager->getList(); //Récupération des livres
+$titre = "Liste des DVD";
 
 $DVDManager = new DVDManager(); //Instanciation d'un DVDManager
 $listeDVD = $DVDManager->getList(); //Récupération des DVD
