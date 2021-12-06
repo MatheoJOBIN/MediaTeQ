@@ -1,6 +1,8 @@
 <?php
 
 require_once("modele/Document.php");
+require_once("modele/Genre.php");
+require_once("modele/Publics.php");
 
 class DVD extends Document
 {
