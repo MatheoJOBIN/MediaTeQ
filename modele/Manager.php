@@ -9,7 +9,7 @@ class Manager
     {
         $login = "root";
         $mdp = "";
-        $bd = "apweb";
+        $bd = "mediateq";
         $serveur = "localhost";
 
         try
