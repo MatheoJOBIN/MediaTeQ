@@ -39,12 +39,12 @@ class Document
         return $this->empruntable;
     }
 
-    public function getGenres()
+    public function getGenre()
     {
         return $this->unGenre;
     }
 
-    public function getPublics()
+    public function getPublic()
     {
         return $this->unPublic;
     }
@@ -74,7 +74,7 @@ class Document
         $this->unGenre = $unGenre;
     }
 
-    public function setPublics($unPublic)
+    public function setPublic($unPublic)
     {
         $this->unPublic = $unPublic;
     }
